@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Please Enter Your salary ::"
+read sal
+sam=`expr $sal / 100 `
+da=`expr $sam \* 50 `
+echo "Your DA is" $da
+hra=`expr $sam \* 10 `
+echo "Your HRA is" $hra
+ta=`expr 250 \* 1 `
+echo "Your TA is" $ta
+total=`expr $sal + $da + $hra + $ta `
+echo "Your Total Salary is ::.."$total
+
